@@ -20,9 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58355175-f15e-42e8-a565-bc2e37e15f92" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kotlintut.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Javatut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javatut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCourseCB/Javatut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCourseCB/META-INF/KotlinCourseCB.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCourseCB/META-INF/KotlinCourseCB.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloWorld.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javatut.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +36,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -57,8 +62,8 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager">
-    <configuration name="Javatut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.KotlintutKt">
+    <configuration name="Javatut" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Javatut" />
       <module name="KotlinCourseCB" />
       <method v="2">
@@ -76,9 +81,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KotlintutKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="KotlinCourseCB" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="KotlintutKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Javatut" />
+        <item itemvalue="Kotlin.KotlintutKt" />
       </list>
     </recent_temporary>
   </component>
@@ -93,7 +111,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589308111889</updated>
-      <workItem from="1598200171355" duration="3161000" />
+      <workItem from="1598200171355" duration="3385000" />
+      <workItem from="1598204423159" duration="467000" />
+      <workItem from="1598204961006" duration="1528000" />
     </task>
     <servers />
   </component>
@@ -110,24 +130,33 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1598202553428">
+    <state x="418" y="212" width="1084" height="736" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598205664992">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1598202553428" />
-    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1598202553426">
+    <state x="418" y="212" width="1084" height="736" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.28.1920.1052@0.28.1920.1052" timestamp="1598205664992" />
+    <state x="692" y="346" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1598205634646">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1598202553426" />
-    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1598202553425">
+    <state x="692" y="346" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog/0.28.1920.1052@0.28.1920.1052" timestamp="1598205634646" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1598205835248">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1598202553425" />
-    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1598202553427">
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1598205835247" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1598205835246">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1598202553427" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1598205835246" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1598205835245">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1598205835245" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1598205835247">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1598205835247" />
     <state x="449" y="189" width="1022" height="737" key="SettingsEditor" timestamp="1598200233025">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
