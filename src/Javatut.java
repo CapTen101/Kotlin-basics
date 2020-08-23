@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Javatut {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         System.out.println("Hello World"); // basic pehela wala program
 
         // variables
@@ -20,6 +20,18 @@ public class Javatut {
         int age = input.nextInt();
         System.out.println(age);
 
+        //Exception Handling
+
+        int[] arr = new int[1];
+
+        arr[0] = 1;
+        try {
+            arr[1] = 2;
+        }catch (ArrayIndexOutOfBoundsException e){
+            System.out.println(e.getLocalizedMessage());
+        }
+
+        System.out.println("Try ke bad vali line");
 
     }
 }
