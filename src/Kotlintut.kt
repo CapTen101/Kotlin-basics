@@ -34,6 +34,37 @@ fun main(args: Array<String>) {
     }
 
     // arrayOf functionality
-    val names = arrayOf(1,2,3)
+    val names = arrayOf(1, 2, 3)
+
+    for (nm in names) {
+        print(nm)
+    }
+
+    println()
+
+    // below functionla code is a loop itself. it will print all the numbers
+    names.forEach {
+        print(it)
+    }
+
+    // Ranges - new thing in kotlin
+    for (i in 0..3) { // both 0&3 are inclusive
+        print(i)
+    }
+    println()
+
+    // if we want to skip two numbers
+    for (i in 0..3 step 2) {
+        print(i)
+    }
+    println()
+
+    // some other uses of range feature
+    val test = 3
+    if (test in 0..10) {
+        print(true)
+    }
+
+    // opposite of in is !in
 
 }
