@@ -66,5 +66,48 @@ fun main(args: Array<String>) {
     }
 
     // opposite of in is !in
+    // next comes collections like List, Map, Set etc...
+
+    // next is functions
+    fun add(a: Int, b: Int): Int {
+        return a + b
+    }
+
+    println(add(2, 3))
+
+    // passing default value in a function
+    fun greeting(greet: String = "Good Night") {
+        print("Hello, $greet")
+    }
+
+    // moving on to higher order funcions - passing functions as input to another functions
+
+
+    val output = operation(2, 3, { a, b ->
+        print("adding these two numbers...")
+        a + b
+    }) // a and b are newly defined
+
+    val p1 = person("Tushar")
+    print(p1.name)
 
 }
+
+fun operation(a: Int, b: Int, add: (Int, Int) -> Int): Int { // Unit means it returns nothing
+    return add(a, b)
+}
+
+class TestClass // this is also a valid class
+
+class person(providedname: String) { // this parenthesis defines a constructor
+    val name: String
+    init {
+        name = providedname
+    }
+}
+
+// even more concise code can be written for above class. I'll be using student instead of person
+class student(val name: String) // and that's it'
+
+// making POJO(Plain Old Java Object) classes we have data classes in kotlin
+data class stud(val name: String, val id: Int) // that's it
